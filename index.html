@@ -1,0 +1,3372 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <script src="https://kit.fontawesome.com/1020d822a8.js" crossorigin="anonymous"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>search</title>
+   <style>
+    * {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    /* background-color: #adf8b4; */
+}
+
+.header_banner {
+    width: 1366px;
+    height: 850px;
+    /* background-color: aqua; */
+    margin: 0 auto;
+    position: relative;
+}
+
+.banner img {
+    width: 1366px;
+    /* position:absolute; */
+
+}
+
+.logo img {
+    width: 350px;
+    bottom: 630px;
+    left: 60px;
+    position: absolute;
+}
+
+.search {
+    /* position: absolute; */
+}
+
+.search {
+    bottom: 200px;
+    width: 400px;
+    height: 80px;
+    /* background-color: red; */
+    position: relative;
+    left: 200px;
+}
+
+.search input {
+    outline: none;
+    border: none;
+    bottom: 675px;
+    left: 200px;
+    width: 500px;
+    height: 45px;
+    border-radius: 6px;
+    position: absolute;
+    font-size: 20px;
+}
+
+.search input::placeholder {
+    font-size: 20px;
+}
+
+/* .search form button img{
+    position:relative ;
+} */
+.search button {
+    width: 45px;
+    height: 45px;
+    right: -301px;
+    position: absolute;
+    background-color: brown;
+    border-radius: 0px 8px 8px 0px;
+    bottom: 675px;
+    border: none;
+    cursor: pointer;
+}
+
+.search img {}
+
+.search button img {
+    width: 45px;
+    height: 45px;
+    /* right: 1px; */
+    bottom: 0px;
+    right: 0px;
+    position: relative;
+    background-color: #6fdfdf;
+
+    border-radius: 0px 8px 8px 0px;
+}
+
+.profile {
+
+    position: relative;
+
+
+    bottom: 1021px;
+    float: right;
+    right: 450px;
+}
+
+.profile button {
+    background: none;
+    border: none;
+    cursor: pointer;
+
+}
+
+.profile button img {
+    width: 45px;
+    height: 45px;
+    top: 100px;
+    left: 10px;
+    float: right;
+    position: absolute;
+    /* right: 30px; */
+    /* background-color: #000; */
+}
+
+.heart {
+    position: relative;
+    bottom: 920px;
+    float: right;
+    /* width: 30px; */
+    right: 310px;
+    /* background-color: #f81d00; */
+    height: 20pz;
+
+}
+
+.heart button {
+    background: none;
+    border: none;
+    cursor: pointer;
+
+
+}
+
+.heart button img {
+    width: 45px;
+    height: 43px;
+
+    float: right;
+    right: 80px;
+}
+
+.subbtna {
+    position: relative;
+    bottom: 1021px;
+    float: right;
+}
+
+.subbtna button {
+    width: 200px;
+    height: 45px;
+    background-color: #6fdfdf;
+    color: #fff;
+    font-size: 1.1em;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-top: 100px;
+}
+
+.subbtna button:hover {
+    background-color: #fff;
+    color: #6fdfdf;
+}
+
+.nav {
+    position: absolute;
+    bottom: 630px;
+
+}
+
+/* .nav img{
+   width: 1520px;
+   position: sticky;
+   position: -webkit-sticky;
+   top: 0;
+   height: 200px;
+} */
+.nav ul {
+    margin-left: 200px;
+}
+
+.nav ul li {
+    display: inline;
+    margin-left: 30px;
+    font-size: 1.5em;
+    font-weight: bold;
+    width: 50px;
+    height: 80px;
+    font-family: sans-serif;
+}
+
+.nav ul li a :nth-child(1):active {
+    background-color: brown;
+}
+
+.nav ul li a {
+    width: 50px;
+    height: 30px;
+    color: white;
+    text-decoration: none;
+
+}
+
+/* .nav ul li :hover {
+    width: 50px;
+    height: 80px;
+    /* padding: 20px; */
+    /* background-color: greenyellow; */
+/* } */ 
+
+.nav ul li a:hover {
+    /* width: 50px;
+    height: 30px;
+    background-color: #6fdfdf;
+    transform: scale(3.1); */
+
+}
+
+.subtext {
+    position: absolute;
+    padding: 0 0 0 120px;
+    bottom: 310px;
+}
+
+.subtext h3 {
+    /* margin-top:50px; */
+    margin-top: 20px;
+    margin-bottom: 60px;
+    font-size: 2.1em;
+    font-family: sans-serif;
+    color: #fff;
+}
+
+.subtext p {
+    margin-top: 0px;
+    font-size: 2.0em;
+    color: #fff;
+    font-family: sans-serif;
+}
+
+.subbtnb {
+    position: relative;
+    bottom: 450px;
+    left: 120px;
+
+}
+
+.subbtnb button {
+    width: 200px;
+    height: 45px;
+    background-color: #6fdfdf;
+    color: #fff;
+    font-size: 1.1em;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.imgbanner {}
+
+.bannerimga {
+    float: right;
+}
+
+.bannerimga img {
+    position: absolute;
+    width: 200px;
+    /* background-color: aqua; */
+    float: right;
+    bottom: 150px;
+    right: 450px;
+
+}
+
+.bannerimgb {
+    float: right;
+}
+
+.bannerimgb img {
+    position: absolute;
+    width: 150px;
+    float: right;
+    bottom: 180px;
+    right: 250px;
+
+}
+
+.bannerimgc {
+    float: right;
+}
+
+.bannerimgc img {
+    position: absolute;
+    width: 200px;
+    float: right;
+    bottom: 300px;
+    right: 90px;
+
+}
+
+.browsegenres {
+    width: 1366px;
+    height: 1200px;
+    margin: 0 auto;
+    position: relative;
+
+}
+
+.bgsheading h1 {
+    font-family: sans-serif;
+    position: absolute;
+    width: 500PX;
+    height: 100px;
+    margin-left: 490px;
+    font-size: 2.8em;
+    margin-top: 30px;
+    color: #4c01e0;
+    /* background-color: crimson; */
+}
+
+.bgsimg {
+    /* width: 1520px; */
+
+    height: 850px;
+    top: 160px;
+    position: relative;
+}
+
+.bgsimg img {
+    width: 251px;
+    height: 146px;
+    background-color: darkmagenta;
+    margin-right: 50px;
+    border-radius: 15px;
+    margin-bottom: 50px;
+
+    transition: ease all 0.3s;
+}
+
+.bgsimg img p:hover {
+    transform: scale(1.1);
+}
+
+.bgsboxmaina,
+.bgsboxmainb,
+.bgsboxmainc {
+    cursor: pointer;
+}
+
+.bgsboxmaina p,
+.bgsboxmainb p,
+.bgsboxmainc p {
+    color: #fff;
+    background-color: #000;
+    opacity: 70%;
+}
+
+.bgsimg div {
+    display: inline-block;
+    /* background-color: aquamarine; */
+    display: flex;
+
+}
+
+.bgsimg img {
+    /* margin-left:120px; */
+
+}
+
+.bgsboxa img {}
+
+.bgsboxa {
+
+    margin-left: 250px;
+
+
+}
+
+.bgsboxa:hover {
+    transform: scale(1.1);
+    box-shadow: 0px 0px 0px 0px black;
+}
+
+.bgsboxb:hover {
+    transform: scale(1.1);
+
+}
+
+.bgsboxc:hover {
+    transform: scale(1.1);
+}
+
+.bgsboxd:hover {
+    transform: scale(1.1);
+}
+
+.bgsboxe:hover {
+    transform: scale(1.1);
+}
+
+.bgsboxf:hover {
+    transform: scale(1.1);
+}
+
+.bgsboxg:hover {
+    transform: scale(1.1);
+}
+
+.bgsboxh:hover {
+    transform: scale(1.1);
+}
+
+.bgsboxi:hover {
+    transform: scale(1.1);
+
+}
+
+.bgsboxd {
+    margin-left: 250px;
+}
+
+.bgsboxg {
+    margin-left: 250px;
+}
+
+.bgsimg p {
+    position: absolute;
+    width: 251px;
+    height: 37.69px;
+
+    font-size: 1.8em;
+
+    text-align: center;
+    margin-top: 110px;
+    border-radius: 0px 0 10px 10px;
+}
+
+.vma p {
+    position: absolute;
+    background-color: #4c01e0;
+    line-height: 2.4em;
+    border-radius: 13px;
+    cursor: pointer;
+    /* text-align: center; */
+    font-size: 1.5em;
+    height: 58.55px;
+    width: 190px;
+    left: 580px;
+    margin-top: 10px;
+    transition: 0.5s;
+}
+
+.vma p:hover {
+    transform: scale(0.9);
+    background-color: #4222f9;
+    /* box-shadow: 0px 0px 10px 2px #06deff; */
+    /* background-color: #7029fb; */
+}
+
+.vma p a {
+    cursor: pointer;
+    text-decoration: none;
+    color: #fff;
+}
+
+.flexboxa {
+    width: 1366px;
+    height: 1300px;
+    /* background-color: #4c01e0; */
+    margin: 0 auto;
+    bottom: 150px;
+    position: relative;
+    /* top: 40PX; */
+}
+
+.lefta img:hover,
+.righta img:hover {
+    transform: scale(0.9);
+}
+
+.lefta img {
+    position: absolute;
+    width: 50px;
+    top: 129px;
+    float: left;
+}
+
+.righta img {
+    position: absolute;
+    width: 50px;
+    float: right;
+    top: 129px;
+    left: 1320px;
+}
+
+.booksa h1 {
+    position: absolute;
+    font-size: 3.5em;
+    top: 160px;
+    left: 100px;
+    font-family: sans-serif;
+    width: 1000px;
+    /* background-color: aqua; */
+}
+
+.row_aandb {
+
+    position: absolute;
+    width: 1366px;
+    height: 400px;
+    margin-top: 100px;
+    top: 150px;
+}
+
+.booksa {
+    left: 20px;
+}
+
+.boxa,
+.boxb,
+.boxc,
+.boxd,
+.boxe {
+    border: 1px solid #b3b2b2;
+
+}
+
+.boxa:hover,
+.boxb:hover,
+.boxc:hover,
+.boxd:hover,
+.boxe:hover {
+    border: 1px solid #b3b2b2;
+    box-shadow: 0 10px 10px rgba(0, 30, 255, 0.1);
+}
+
+.boxaauther p,
+.boxbauther p,
+.boxcauther p,
+.boxdauther p,
+.boxeauther p {
+    color: #a860e8;
+}
+
+.boxa {
+
+    position: absolute;
+    width: 196.31px;
+    height: 310.25px;
+    background-color: #fff;
+    left: 100px;
+    border-radius: 10px;
+}
+
+.boxa:hover {
+    /* background-color: #a860e8; */
+    /* box-shadow: 10px 10px black; */
+}
+
+.boxabg img {
+    position: absolute;
+    align-items: center;
+
+    top: 25px;
+    left: 37px;
+    width: 123px;
+    height: 192px;
+}
+
+.boxabg {
+    position: absolute;
+    width: 196.31px;
+    height: 155.25px;
+    border-radius: 10px 10px 0 0;
+    background-color: #ccf9f9;
+
+}
+
+.boxapara p {
+    position: absolute;
+    top: 230px;
+    left: 5px;
+    width: 80px;
+    font-family: sans-serif;
+    font-size: 0.8em;
+
+}
+
+.boxatitle h6 {
+    font-family: sans-serif;
+    position: absolute;
+    top: 250px;
+    left: 25px;
+    font-size: 0.9em;
+}
+
+.boxaauther p {
+    position: absolute;
+    /* color: #a860e8; */
+    top: 270px;
+    left: 25px;
+}
+
+
+.boxagsa img {
+    position: absolute;
+
+    width: 15px;
+    left: 25px;
+    top: 325px;
+
+}
+
+.boxagsb img {
+    position: absolute;
+    width: 15px;
+    left: 40px;
+    top: 325px;
+    display: inline;
+}
+
+.boxagsc img {
+    position: absolute;
+    width: 15px;
+    left: 55px;
+    top: 325px;
+
+}
+
+.boxagsd img {
+    position: absolute;
+    width: 15px;
+    left: 70px;
+    top: 325px;
+    display: inline;
+}
+
+.boxastar img {
+    width: 15px;
+    left: 85px;
+    top: 325px;
+    position: absolute;
+}
+
+.stara img {
+    margin-top: -35px;
+}
+
+.boxarate p {
+
+    position: absolute;
+    bottom: 3px;
+    right: 65px;
+    font-size: 1.1em;
+}
+
+.boxaheart a i {
+    position: absolute;
+    color: #3b5999;
+    top: 270px;
+    width: 30px;
+    right: 10px;
+    font-size: 25px;
+}
+
+.boxaheart a i:hover {
+    color: hotpink;
+}
+
+/* boxb */
+
+.boxb {
+
+    position: absolute;
+    width: 196.31px;
+    height: 310.25px;
+    background-color: #fff;
+    left: 340px;
+    border-radius: 10px;
+}
+
+.boxbbg img {
+    position: absolute;
+    align-items: center;
+
+    top: 25px;
+    left: 37px;
+    width: 123px;
+    height: 192px;
+}
+
+.boxbbg {
+    position: absolute;
+    width: 196.31px;
+    height: 155.25px;
+    border-radius: 10px 10px 0 0;
+    background-color: #d3d8fd;
+
+}
+
+.boxbpara p {
+    position: absolute;
+    top: 230px;
+    left: 5px;
+    width: 80px;
+    font-family: sans-serif;
+    font-size: 0.8em;
+
+}
+
+.boxbtitle h6 {
+    font-family: sans-serif;
+    position: absolute;
+    top: 250px;
+    left: 25px;
+    font-size: 0.9em;
+}
+
+.boxbauther p {
+    position: absolute;
+    /* color: #a860e8; */
+    top: 270px;
+    left: 25px;
+}
+
+
+.boxbgsa img {
+    position: absolute;
+
+    width: 15px;
+    left: 25px;
+    top: 325px;
+
+}
+
+.boxbgsb img {
+    position: absolute;
+    width: 15px;
+    left: 40px;
+    top: 325px;
+    display: inline;
+}
+
+.boxbgsc img {
+    position: absolute;
+    width: 15px;
+    left: 55px;
+    top: 325px;
+
+}
+
+.boxbgsd img {
+    position: absolute;
+    width: 15px;
+    left: 70px;
+    top: 325px;
+    display: inline;
+}
+
+.boxbstar img {
+    width: 15px;
+    left: 85px;
+    top: 325px;
+    position: absolute;
+}
+
+.starb img {
+    margin-top: -35px;
+}
+
+.boxbrate p {
+
+    position: absolute;
+    bottom: 3px;
+    right: 65px;
+    font-size: 1.1em;
+}
+
+.boxbheart img {
+    position: absolute;
+    top: 270px;
+    width: 30px;
+    right: 10px;
+}
+
+/* box c */
+
+.boxc {
+
+    position: absolute;
+    width: 196.31px;
+    height: 310.25px;
+    background-color: #fff;
+    left: 580px;
+    border-radius: 10px;
+}
+
+.boxcbg img {
+    position: absolute;
+    align-items: center;
+
+    top: 25px;
+    left: 37px;
+    width: 123px;
+    height: 192px;
+}
+
+.boxcbg {
+    position: absolute;
+    width: 196.31px;
+    height: 155.25px;
+    border-radius: 10px 10px 0 0;
+    background-color: #f2e2e2;
+
+}
+
+.boxcpara p {
+    position: absolute;
+    top: 230px;
+    left: 5px;
+    width: 80px;
+    font-family: sans-serif;
+    font-size: 0.8em;
+
+}
+
+.boxctitle h6 {
+    font-family: sans-serif;
+    position: absolute;
+    top: 250px;
+    left: 25px;
+    font-size: 0.9em;
+}
+
+.boxcauther p {
+    position: absolute;
+    top: 270px;
+    left: 25px;
+}
+
+
+.boxcgsa img {
+    position: absolute;
+
+    width: 15px;
+    left: 25px;
+    top: 325px;
+
+}
+
+.boxcgsb img {
+    position: absolute;
+    width: 15px;
+    left: 40px;
+    top: 325px;
+    display: inline;
+}
+
+.boxcgsc img {
+    position: absolute;
+    width: 15px;
+    left: 55px;
+    top: 325px;
+
+}
+
+.boxcgsd img {
+    position: absolute;
+    width: 15px;
+    left: 70px;
+    top: 325px;
+    display: inline;
+}
+
+.boxcstar img {
+    width: 15px;
+    left: 85px;
+    top: 325px;
+    position: absolute;
+}
+
+.starc img {
+    margin-top: -35px;
+}
+
+.boxcrate p {
+
+    position: absolute;
+    bottom: 3px;
+    right: 65px;
+    font-size: 1.1em;
+}
+
+.boxcheart img {
+    position: absolute;
+    top: 270px;
+    width: 30px;
+    right: 10px;
+}
+
+/* box d */
+
+.boxd {
+
+    position: absolute;
+    width: 196.31px;
+    height: 310.25px;
+    background-color: #fff;
+    left: 820px;
+    border-radius: 10px;
+}
+
+.boxdbg img {
+    position: absolute;
+    align-items: center;
+
+    top: 25px;
+    left: 37px;
+    width: 123px;
+    height: 192px;
+}
+
+.boxdbg {
+    position: absolute;
+    width: 196.31px;
+    height: 155.25px;
+    border-radius: 10px 10px 0 0;
+    background-color: #d3d6f9;
+
+}
+
+.boxdpara p {
+    position: absolute;
+    top: 230px;
+    left: 5px;
+    width: 80px;
+    font-family: sans-serif;
+    font-size: 0.8em;
+
+}
+
+.boxdtitle h6 {
+    font-family: sans-serif;
+    position: absolute;
+    top: 250px;
+    left: 25px;
+    font-size: 0.9em;
+}
+
+.boxdauther p {
+    position: absolute;
+    top: 270px;
+    left: 25px;
+}
+
+
+.boxdgsa img {
+    position: absolute;
+
+    width: 15px;
+    left: 25px;
+    top: 325px;
+
+}
+
+.boxdgsb img {
+    position: absolute;
+    width: 15px;
+    left: 40px;
+    top: 325px;
+    display: inline;
+}
+
+.boxdgsc img {
+    position: absolute;
+    width: 15px;
+    left: 55px;
+    top: 325px;
+
+}
+
+.boxdgsd img {
+    position: absolute;
+    width: 15px;
+    left: 70px;
+    top: 325px;
+    display: inline;
+}
+
+.boxdstar img {
+    width: 15px;
+    left: 85px;
+    top: 325px;
+    position: absolute;
+}
+
+.stard img {
+    margin-top: -35px;
+}
+
+.boxdrate p {
+
+    position: absolute;
+    bottom: 3px;
+    right: 65px;
+    font-size: 1.1em;
+}
+
+.boxdheart img {
+    position: absolute;
+    top: 270px;
+    width: 30px;
+    right: 10px;
+}
+
+/* box e */
+
+.boxe {
+
+    position: absolute;
+    width: 196.31px;
+    height: 310.25px;
+    background-color: #fff;
+    left: 1060px;
+    border-radius: 10px;
+}
+
+.boxebg img {
+    position: absolute;
+    align-items: center;
+
+    top: 25px;
+    left: 37px;
+    width: 123px;
+    height: 192px;
+}
+
+.boxebg {
+    position: absolute;
+    width: 196.31px;
+    height: 155.25px;
+    border-radius: 10px 10px 0 0;
+    background-color: #cdfed8;
+
+}
+
+.boxepara p {
+    position: absolute;
+    top: 230px;
+    left: 5px;
+    width: 80px;
+    font-family: sans-serif;
+    font-size: 0.8em;
+
+}
+
+.boxetitle h6 {
+    font-family: sans-serif;
+    position: absolute;
+    top: 250px;
+    left: 25px;
+    font-size: 0.9em;
+}
+
+.boxeauther p {
+    position: absolute;
+    top: 270px;
+    left: 25px;
+}
+
+
+.boxegsa img {
+    position: absolute;
+
+    width: 15px;
+    left: 25px;
+    top: 325px;
+
+}
+
+.boxegsb img {
+    position: absolute;
+    width: 15px;
+    left: 40px;
+    top: 325px;
+    display: inline;
+}
+
+.boxegsc img {
+    position: absolute;
+    width: 15px;
+    left: 55px;
+    top: 325px;
+
+}
+
+.boxegsd img {
+    position: absolute;
+    width: 15px;
+    left: 70px;
+    top: 325px;
+    display: inline;
+}
+
+.boxestar img {
+    width: 15px;
+    left: 85px;
+    top: 325px;
+    position: absolute;
+}
+
+.stare img {
+    margin-top: -35px;
+}
+
+.boxerate p {
+
+    position: absolute;
+    bottom: 3px;
+    right: 65px;
+    font-size: 1.1em;
+}
+
+.boxeheart img {
+    position: absolute;
+    top: 270px;
+    width: 30px;
+    right: 10px;
+}
+
+.btnboxa button {
+    width: 180px;
+    /* height: 40px; */
+    background-color: #4c01e0;
+    color: #fff;
+    font-size: 1.2em;
+    padding: 15px 45px;
+    top: 600px;
+    right: 110px;
+    position: absolute;
+    border: none;
+    cursor: pointer;
+    border-radius: 10px;
+    transition: 0.6s;
+}
+
+.btnboxa button:hover {
+    transform: scale(0.9);
+    background-color: #4222f9;
+}
+
+/* background */
+.bga {
+    width: 1366px;
+    height: 550px;
+    top: 404px;
+    background-color: #e2ebf1;
+    position: absolute;
+}
+
+.row_b {
+    /* box-F */
+    position: absolute;
+    top: 800px;
+}
+
+.booksb h1 {
+    bottom: 60px;
+    position: absolute;
+    font-size: 3.5em;
+    left: 100px;
+    font-family: sans-serif;
+    width: 1000px;
+    top: -90px;
+    /* background-color: aqua; */
+}
+
+.leftb img:hover,
+.rightb img:hover {
+    transform: scale(0.9);
+}
+
+.leftb img {
+
+    position: absolute;
+    width: 50px;
+    top: 128px;
+}
+
+.rightb img {
+    position: absolute;
+    width: 50px;
+    top: 128px;
+    left: 1320px;
+}
+
+.boxf,
+.boxg,
+.boxh,
+.boxi,
+.boxj {
+    border: 1px solid #b3b2b2;
+}
+
+.boxf:hover,
+.boxg:hover,
+.boxh:hover,
+.boxi:hover,
+.boxj:hover {
+    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1);
+}
+
+.boxfauther p,
+.boxgauther p,
+.boxhauther p,
+.boxiauther p,
+.boxjauther p {
+    color: #a860e8;
+}
+
+/* box-F */
+
+.boxf {
+    border: 1 solid black;
+    position: absolute;
+    width: 196.31px;
+    height: 310.25px;
+    background-color: #fff;
+    left: 100px;
+    border-radius: 10px;
+}
+
+.boxfbg img {
+    position: absolute;
+    align-items: center;
+    left: 37px;
+    top: 25px;
+    width: 123px;
+}
+
+.boxfbg {
+    position: absolute;
+    top: 0;
+    width: 196.38px;
+    height: 155.25px;
+    border-radius: 10px 10px 0 0;
+    background-color: #d3d8fd;
+
+}
+
+.boxfpara p {
+    position: absolute;
+    top: 230px;
+    left: 5px;
+    width: 80px;
+    font-family: sans-serif;
+    font-size: 0.8em;
+    /* background-color: #39008e; */
+}
+
+.boxftitle h6 {
+    font-family: sans-serif;
+    position: absolute;
+    top: 250px;
+    left: 25px;
+    font-size: 0.9em;
+}
+
+.boxfauther p {
+    position: absolute;
+    top: 270px;
+    left: 25px;
+}
+
+.boxfgsa img {
+    position: absolute;
+
+    width: 15px;
+    left: 25px;
+    top: 325px;
+
+}
+
+.boxfgsb img {
+    position: absolute;
+    width: 15px;
+    left: 40px;
+    top: 325px;
+    display: inline;
+}
+
+.boxfgsc img {
+    position: absolute;
+    width: 15px;
+    left: 55px;
+    top: 325px;
+
+}
+
+.boxfgsd img {
+    position: absolute;
+    width: 15px;
+    left: 70px;
+    top: 325px;
+    display: inline;
+}
+
+.boxfstar img {
+    width: 15px;
+    left: 85px;
+    top: 325px;
+    position: absolute;
+}
+
+.starf {
+    top: -35px;
+    position: absolute;
+}
+
+.boxfrate p {
+
+    position: absolute;
+    bottom: 3px;
+    right: 65px;
+    font-size: 1.1em;
+}
+
+.boxfheart img {
+    position: absolute;
+    top: 270px;
+    width: 30px;
+    right: 10px;
+}
+
+
+/* ----------------------box-G---------------------------------------- */
+
+.boxg {
+
+    position: absolute;
+    width: 196.31px;
+    height: 310.25px;
+    background-color: #fff;
+    left: 340px;
+    border-radius: 10px;
+}
+
+.boxgbg img {
+    position: absolute;
+    align-items: center;
+    left: 37px;
+    top: 25px;
+    width: 123px;
+}
+
+.boxgbg {
+    position: absolute;
+    width: 196.31px;
+    height: 155.25px;
+    border-radius: 10px 10px 0 0;
+    background-color: #adf8b4;
+
+}
+
+.boxgpara p {
+    position: absolute;
+    top: 230px;
+    left: 5px;
+    width: 80px;
+    font-family: sans-serif;
+    font-size: 0.8em;
+    /* background-color: #39008e; */
+}
+
+.boxgtitle h6 {
+    font-family: sans-serif;
+    position: absolute;
+    top: 250px;
+    left: 25px;
+    font-size: 0.9em;
+}
+
+.boxgauther p {
+    position: absolute;
+    top: 270px;
+    left: 25px;
+}
+
+.boxggsa img {
+    position: absolute;
+
+    width: 15px;
+    left: 25px;
+    top: 325px;
+
+}
+
+.boxggsb img {
+    position: absolute;
+    width: 15px;
+    left: 40px;
+    top: 325px;
+    display: inline;
+}
+
+.boxggsc img {
+    position: absolute;
+    width: 15px;
+    left: 55px;
+    top: 325px;
+
+}
+
+.boxggsd img {
+    position: absolute;
+    width: 15px;
+    left: 70px;
+    top: 325px;
+    display: inline;
+}
+
+.boxgstar img {
+    width: 15px;
+    left: 85px;
+    top: 325px;
+    position: absolute;
+}
+
+.starg {
+    top: -35px;
+    position: absolute;
+}
+
+.boxgrate p {
+
+    position: absolute;
+    bottom: 3px;
+    right: 65px;
+    font-size: 1.1em;
+}
+
+.boxgheart img {
+    position: absolute;
+    top: 270px;
+    width: 30px;
+    right: 10px;
+}
+
+/*  --------------------box h-------------------------- */
+
+.boxh {
+
+    position: absolute;
+    width: 196.31px;
+    height: 310.25px;
+    background-color: #fff;
+    left: 580px;
+    border-radius: 10px;
+}
+
+.boxhbg img {
+    position: absolute;
+    align-items: center;
+    left: 37px;
+    top: 25px;
+    width: 123px;
+}
+
+.boxhbg {
+    position: absolute;
+    width: 196.31px;
+    height: 155.25px;
+    border-radius: 10px 10px 0 0;
+    background-color: #cebfbf;
+
+}
+
+.boxhpara p {
+    position: absolute;
+    top: 230px;
+    left: 5px;
+    width: 80px;
+    font-family: sans-serif;
+    font-size: 0.8em;
+    /* background-color: #39008e; */
+}
+
+.boxhtitle h6 {
+    font-family: sans-serif;
+    position: absolute;
+    top: 250px;
+    left: 25px;
+    font-size: 0.9em;
+}
+
+.boxhauther p {
+    position: absolute;
+    top: 270px;
+    left: 25px;
+}
+
+.boxhgsa img {
+    position: absolute;
+
+    width: 15px;
+    left: 25px;
+    top: 325px;
+
+}
+
+.boxhgsb img {
+    position: absolute;
+    width: 15px;
+    left: 40px;
+    top: 325px;
+    display: inline;
+}
+
+.boxhgsc img {
+    position: absolute;
+    width: 15px;
+    left: 55px;
+    top: 325px;
+
+}
+
+.boxhgsd img {
+    position: absolute;
+    width: 15px;
+    left: 70px;
+    top: 325px;
+    display: inline;
+}
+
+.boxhstar img {
+    width: 15px;
+    left: 85px;
+    top: 325px;
+    position: absolute;
+}
+
+.starh {
+    top: -35px;
+    position: absolute;
+}
+
+.boxhrate p {
+
+    position: absolute;
+    bottom: 3px;
+    right: 65px;
+    font-size: 1.1em;
+}
+
+.boxhheart img {
+    position: absolute;
+    top: 270px;
+    width: 30px;
+    right: 10px;
+}
+
+
+/* ----------------------------box i-------------------------- */
+
+.boxi {
+
+    position: absolute;
+    width: 196.31px;
+    height: 310.25px;
+    background-color: #fff;
+    left: 820px;
+    border-radius: 10px;
+}
+
+.boxibg img {
+    position: absolute;
+    align-items: center;
+    left: 37px;
+    top: 25px;
+    width: 123px;
+}
+
+.boxibg {
+    position: absolute;
+    width: 196.31px;
+    height: 155.25px;
+    border-radius: 10px 10px 0 0;
+    background-color: #e2ebf1;
+
+}
+
+.boxipara p {
+    position: absolute;
+    top: 230px;
+    left: 5px;
+    width: 80px;
+    font-family: sans-serif;
+    font-size: 0.8em;
+    /* background-color: #39008e; */
+}
+
+.boxititle h6 {
+    font-family: sans-serif;
+    position: absolute;
+    top: 250px;
+    left: 25px;
+    font-size: 0.9em;
+}
+
+.boxiauther p {
+    position: absolute;
+    top: 270px;
+    left: 25px;
+}
+
+.boxigsa img {
+    position: absolute;
+
+    width: 15px;
+    left: 25px;
+    top: 325px;
+
+}
+
+.boxigsb img {
+    position: absolute;
+    width: 15px;
+    left: 40px;
+    top: 325px;
+    display: inline;
+}
+
+.boxigsc img {
+    position: absolute;
+    width: 15px;
+    left: 55px;
+    top: 325px;
+
+}
+
+.boxigsd img {
+    position: absolute;
+    width: 15px;
+    left: 70px;
+    top: 325px;
+    display: inline;
+}
+
+.boxistar img {
+    width: 15px;
+    left: 85px;
+    top: 325px;
+    position: absolute;
+}
+
+.stari {
+    top: -35px;
+    position: absolute;
+}
+
+.boxirate p {
+
+    position: absolute;
+    bottom: 3px;
+    right: 65px;
+    font-size: 1.1em;
+}
+
+.boxiheart img {
+    position: absolute;
+    top: 270px;
+    width: 30px;
+    right: 10px;
+}
+
+/* -------------------------box j------------------------------------- */
+
+.boxj {
+
+    position: absolute;
+    width: 196.31px;
+    height: 310.25px;
+    background-color: #fff;
+    left: 1060px;
+    border-radius: 10px;
+}
+
+.boxjbg img {
+    position: absolute;
+    align-items: center;
+    left: 37px;
+    top: 25px;
+    width: 123px;
+}
+
+.boxjbg {
+    position: absolute;
+    width: 196.31px;
+    height: 155.25px;
+    border-radius: 10px 10px 0 0;
+    background-color: #f2e2e2;
+
+}
+
+.boxjpara p {
+    position: absolute;
+    top: 230px;
+    left: 5px;
+    width: 80px;
+    font-family: sans-serif;
+    font-size: 0.8em;
+    /* background-color: #39008e; */
+}
+
+.boxjtitle h6 {
+    font-family: sans-serif;
+    position: absolute;
+    top: 250px;
+    left: 25px;
+    font-size: 0.9em;
+}
+
+.boxjauther p {
+    position: absolute;
+    top: 270px;
+    left: 25px;
+}
+
+.boxjgsa img {
+    position: absolute;
+
+    width: 15px;
+    left: 25px;
+    top: 325px;
+
+}
+
+.boxjgsb img {
+    position: absolute;
+    width: 15px;
+    left: 40px;
+    top: 325px;
+    display: inline;
+}
+
+.boxjgsc img {
+    position: absolute;
+    width: 15px;
+    left: 55px;
+    top: 325px;
+
+}
+
+.boxjgsd img {
+    position: absolute;
+    width: 15px;
+    left: 70px;
+    top: 325px;
+    display: inline;
+}
+
+.boxjstar img {
+    width: 15px;
+    left: 85px;
+    top: 325px;
+    position: absolute;
+}
+
+.starj {
+    top: -35px;
+    position: absolute;
+}
+
+.boxjrate p {
+
+    position: absolute;
+    bottom: 3px;
+    right: 65px;
+    font-size: 1.1em;
+}
+
+.boxjheart img {
+    position: absolute;
+    top: 270px;
+    width: 30px;
+    right: 10px;
+}
+
+.btnboxb button {
+
+    background-color: #4c01e0;
+    color: #fff;
+    font-size: 1.2em;
+    padding: 15px 45px;
+    width: 180px;
+    top: 350px;
+    left: 1080px;
+    position: absolute;
+    border: none;
+    /* cursor: pointer; */
+    border-radius: 10px;
+    transition: 0.9;
+    cursor: pointer;
+    transition: 0.6s;
+}
+
+.btnboxb button:hover {
+    transform: scale(0.9);
+    background-color: #4222f9;
+}
+
+/*                     banner                */
+
+.audiobanner {
+    /* margin: 0 auto; */
+    position: relative;
+    top: 1250px;
+}
+
+.audiobanner img {
+    width: 1366px;
+    height: 500px;
+}
+
+/*                        row 3          */
+
+.booksc {
+    top: 1000px;
+    position: relative;
+}
+
+.row_c h1 {
+    margin-top: 270px;
+    font-size: 3.5em;
+    font-family: sans-serif;
+    margin-left: 100px;
+    margin-bottom: -60px
+}
+
+.booksc {
+    position: relative;
+}
+
+.arowc img {
+    position: relative;
+    /* top:200px; */
+    width: 50px;
+    /* top: 220px; */
+}
+
+.leftc img:hover,
+.rightc img:hover {
+    transform: scale(0.8);
+}
+
+.leftc img {
+    position: relative;
+    /* margin-top:60px; */
+    left: 10px;
+    top: 235px;
+}
+
+.rightc img {
+    position: relative;
+    left: 1300px;
+    top: 190px;
+}
+
+.boxk,
+.boxl,
+.boxm,
+.boxn,
+.boxo {
+    border: 1px solid #b3b2b2;
+}
+
+.boxk:hover,
+.boxl:hover,
+.boxm:hover,
+.boxn:hover,
+.boxo:hover {
+    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1);
+}
+
+.boxkauther p,
+.boxlauther p,
+.boxmauther p,
+.boxnauther p,
+.boxoauther p {
+    color: #a860e8;
+}
+
+/* =----------------------------------------------------------------------------------------------- */
+
+
+.boxk {
+    border: 1 solid black;
+    position: absolute;
+    width: 196.31px;
+    height: 310.25px;
+    background-color: #fff;
+    left: 100px;
+    border-radius: 10px;
+}
+
+.boxkbg img {
+    position: absolute;
+    align-items: center;
+    left: 37px;
+    top: 25px;
+    width: 123px;
+}
+
+.boxkbg {
+    position: absolute;
+    top: 0;
+    width: 196.38px;
+    height: 155.25px;
+    border-radius: 10px 10px 0 0;
+    background-color: #d3d8fd;
+
+}
+
+.boxkpara p {
+    position: absolute;
+    top: 230px;
+    left: 5px;
+    width: 80px;
+    font-family: sans-serif;
+    font-size: 0.8em;
+    /* background-color: #39008e; */
+}
+
+.boxktitle h6 {
+    font-family: sans-serif;
+    position: absolute;
+    top: 250px;
+    left: 25px;
+    font-size: 0.9em;
+}
+
+.boxkauther p {
+    position: absolute;
+    top: 270px;
+    left: 25px;
+}
+
+.boxkgsa img {
+    position: absolute;
+
+    width: 15px;
+    left: 25px;
+    top: 325px;
+
+}
+
+.boxkgsb img {
+    position: absolute;
+    width: 15px;
+    left: 40px;
+    top: 325px;
+    display: inline;
+}
+
+.boxkgsc img {
+    position: absolute;
+    width: 15px;
+    left: 55px;
+    top: 325px;
+
+}
+
+.boxkgsd img {
+    position: absolute;
+    width: 15px;
+    left: 70px;
+    top: 325px;
+    display: inline;
+}
+
+.boxkstar img {
+    width: 15px;
+    left: 85px;
+    top: 325px;
+    position: absolute;
+}
+
+.starf {
+    top: -35px;
+    position: absolute;
+}
+
+.boxkrate p {
+
+    position: absolute;
+    bottom: 3px;
+    right: 65px;
+    font-size: 1.1em;
+}
+
+.boxkheart img {
+    position: absolute;
+    top: 270px;
+    width: 30px;
+    right: 10px;
+}
+
+
+/* ----------------------box-l---------------------------------------- */
+
+.boxl {
+
+    position: absolute;
+    width: 196.31px;
+    height: 310.25px;
+    background-color: #fff;
+    left: 340px;
+    border-radius: 10px;
+}
+
+.boxlbg img {
+    position: absolute;
+    align-items: center;
+    left: 37px;
+    top: 25px;
+    width: 123px;
+}
+
+.boxlbg {
+    position: absolute;
+    width: 196.31px;
+    height: 155.25px;
+    border-radius: 10px 10px 0 0;
+    background-color: #adf8b4;
+
+}
+
+.boxlpara p {
+    position: absolute;
+    top: 230px;
+    left: 5px;
+    width: 80px;
+    font-family: sans-serif;
+    font-size: 0.8em;
+    /* background-color: #39008e; */
+}
+
+.boxltitle h6 {
+    font-family: sans-serif;
+    position: absolute;
+    top: 250px;
+    left: 25px;
+    font-size: 0.9em;
+}
+
+.boxlauther p {
+    position: absolute;
+    top: 270px;
+    left: 25px;
+}
+
+.boxlgsa img {
+    position: absolute;
+
+    width: 15px;
+    left: 25px;
+    top: 325px;
+
+}
+
+.boxlgsb img {
+    position: absolute;
+    width: 15px;
+    left: 40px;
+    top: 325px;
+    display: inline;
+}
+
+.boxlgsc img {
+    position: absolute;
+    width: 15px;
+    left: 55px;
+    top: 325px;
+
+}
+
+.boxlgsd img {
+    position: absolute;
+    width: 15px;
+    left: 70px;
+    top: 325px;
+    display: inline;
+}
+
+.boxlstar img {
+    width: 15px;
+    left: 85px;
+    top: 325px;
+    position: absolute;
+}
+
+.starl {
+    top: -35px;
+    position: absolute;
+}
+
+.boxlrate p {
+
+    position: absolute;
+    bottom: 3px;
+    right: 65px;
+    font-size: 1.1em;
+}
+
+.boxlheart img {
+    position: absolute;
+    top: 270px;
+    width: 30px;
+    right: 10px;
+}
+
+/*  --------------------box h-------------------------- */
+
+.boxm {
+
+    position: absolute;
+    width: 196.31px;
+    height: 310.25px;
+    background-color: #fff;
+    left: 580px;
+    border-radius: 10px;
+}
+
+.boxmbg img {
+    position: absolute;
+    align-items: center;
+    left: 37px;
+    top: 25px;
+    width: 123px;
+}
+
+.boxmbg {
+    position: absolute;
+    width: 196.31px;
+    height: 155.25px;
+    border-radius: 10px 10px 0 0;
+    background-color: #cebfbf;
+
+}
+
+.boxmpara p {
+    position: absolute;
+    top: 230px;
+    left: 5px;
+    width: 80px;
+    font-family: sans-serif;
+    font-size: 0.8em;
+    /* background-color: #39008e; */
+}
+
+.boxmtitle h6 {
+    font-family: sans-serif;
+    position: absolute;
+    top: 250px;
+    left: 25px;
+    font-size: 0.9em;
+}
+
+.boxmauther p {
+    position: absolute;
+    top: 270px;
+    left: 25px;
+}
+
+.boxmgsa img {
+    position: absolute;
+
+    width: 15px;
+    left: 25px;
+    top: 325px;
+
+}
+
+.boxmgsb img {
+    position: absolute;
+    width: 15px;
+    left: 40px;
+    top: 325px;
+    display: inline;
+}
+
+.boxmgsc img {
+    position: absolute;
+    width: 15px;
+    left: 55px;
+    top: 325px;
+
+}
+
+.boxmgsd img {
+    position: absolute;
+    width: 15px;
+    left: 70px;
+    top: 325px;
+    display: inline;
+}
+
+.boxmstar img {
+    width: 15px;
+    left: 85px;
+    top: 325px;
+    position: absolute;
+}
+
+.starm {
+    top: -35px;
+    position: absolute;
+}
+
+.boxmrate p {
+
+    position: absolute;
+    bottom: 3px;
+    right: 65px;
+    font-size: 1.1em;
+}
+
+.boxmheart img {
+    position: absolute;
+    top: 270px;
+    width: 30px;
+    right: 10px;
+}
+
+
+/* ----------------------------box n-------------------------- */
+
+.boxn {
+
+    position: absolute;
+    width: 196.31px;
+    height: 310.25px;
+    background-color: #fff;
+    left: 820px;
+    border-radius: 10px;
+}
+
+.boxnbg img {
+    position: absolute;
+    align-items: center;
+    left: 37px;
+    top: 25px;
+    width: 123px;
+}
+
+.boxnbg {
+    position: absolute;
+    width: 196.31px;
+    height: 155.25px;
+    border-radius: 10px 10px 0 0;
+    background-color: #e2ebf1;
+
+}
+
+.boxnpara p {
+    position: absolute;
+    top: 230px;
+    left: 5px;
+    width: 80px;
+    font-family: sans-serif;
+    font-size: 0.8em;
+    /* background-color: #39008e; */
+}
+
+.boxntitle h6 {
+    font-family: sans-serif;
+    position: absolute;
+    top: 250px;
+    left: 25px;
+    font-size: 0.9em;
+}
+
+.boxnauther p {
+    position: absolute;
+    top: 270px;
+    left: 25px;
+}
+
+.boxngsa img {
+    position: absolute;
+
+    width: 15px;
+    left: 25px;
+    top: 325px;
+
+}
+
+.boxngsb img {
+    position: absolute;
+    width: 15px;
+    left: 40px;
+    top: 325px;
+    display: inline;
+}
+
+.boxngsc img {
+    position: absolute;
+    width: 15px;
+    left: 55px;
+    top: 325px;
+
+}
+
+.boxngsd img {
+    position: absolute;
+    width: 15px;
+    left: 70px;
+    top: 325px;
+    display: inline;
+}
+
+.boxnstar img {
+    width: 15px;
+    left: 85px;
+    top: 325px;
+    position: absolute;
+}
+
+.starn {
+    top: -35px;
+    position: absolute;
+}
+
+.boxnrate p {
+
+    position: absolute;
+    bottom: 3px;
+    right: 65px;
+    font-size: 1.1em;
+}
+
+.boxnheart img {
+    position: absolute;
+    top: 270px;
+    width: 30px;
+    right: 10px;
+}
+
+/* -------------------------box o------------------------------------- */
+
+.boxo {
+
+    position: absolute;
+    width: 196.31px;
+    height: 310.25px;
+    background-color: #fff;
+    left: 1060px;
+    border-radius: 10px;
+}
+
+.boxobg img {
+    position: absolute;
+    align-items: center;
+    left: 37px;
+    top: 25px;
+    width: 123px;
+}
+
+.boxobg {
+    position: absolute;
+    width: 196.31px;
+    height: 155.25px;
+    border-radius: 10px 10px 0 0;
+    background-color: #f2e2e2;
+
+}
+
+.boxopara p {
+    position: absolute;
+    top: 230px;
+    left: 5px;
+    width: 80px;
+    font-family: sans-serif;
+    font-size: 0.8em;
+    /* background-color: #39008e; */
+}
+
+.boxotitle h6 {
+    font-family: sans-serif;
+    position: absolute;
+    top: 250px;
+    left: 25px;
+    font-size: 0.9em;
+}
+
+.boxoauther p {
+    position: absolute;
+    top: 270px;
+    left: 25px;
+}
+
+.boxogsa img {
+    position: absolute;
+
+    width: 15px;
+    left: 25px;
+    top: 325px;
+
+}
+
+.boxogsb img {
+    position: absolute;
+    width: 15px;
+    left: 40px;
+    top: 325px;
+    display: inline;
+}
+
+.boxogsc img {
+    position: absolute;
+    width: 15px;
+    left: 55px;
+    top: 325px;
+
+}
+
+.boxogsd img {
+    position: absolute;
+    width: 15px;
+    left: 70px;
+    top: 325px;
+    display: inline;
+}
+
+.boxostar img {
+    width: 15px;
+    left: 85px;
+    top: 325px;
+    position: absolute;
+}
+
+.staro {
+    top: -35px;
+    position: absolute;
+}
+
+.boxorate p {
+
+    position: absolute;
+    bottom: 3px;
+    right: 65px;
+    font-size: 1.1em;
+}
+
+.boxoheart img {
+    position: absolute;
+    top: 270px;
+    width: 30px;
+    right: 10px;
+}
+
+.btnboxc button {
+
+    background-color: #4c01e0;
+    color: #fff;
+    font-size: 1.2em;
+    padding: 15px 45px;
+    width: 180px;
+    top: 470px;
+    left: 1080px;
+    position: absolute;
+    border: none;
+    cursor: pointer;
+    border-radius: 10px;
+    transition: 0.6s;
+}
+
+.btnboxc button:hover {
+    transform: scale(0.9);
+    background-color: #4222f9;
+}
+
+.mobliebanner {
+    margin-top: 1550px;
+    position: relative;
+    bottom: 50px;
+
+}
+
+.bannericons img {
+    bottom: 40px;
+    width: 200px;
+    height: 65px;
+    /* width: 100px; */
+}
+
+.play img {
+    left: 400px;
+    position: absolute;
+    /* width: 200px; */
+}
+
+.apple img {
+    left: 150px;
+    position: absolute;
+    /* width: 200px; */
+}
+
+.mobilescrren img {
+    /* top: 20px; */
+    width: 1366px;
+    height: 498px;
+    position: relative;
+
+}
+
+.mobiles img {
+    position: absolute;
+    right: 10px;
+    bottom: 50px;
+    transition: 1.5s;
+}
+
+.mobiles img:hover {
+    transform: scale(1.1);
+}
+
+.abubooks {
+    position: relative;
+
+
+}
+
+.abubooks h1 {
+    /* top: 20px; */
+    left: 80px;
+    position: absolute;
+}
+
+.abubooks p {
+    left: 80px;
+    position: absolute;
+    font-size: 1.5em;
+}
+
+.abubooks p span {
+
+    color: #c8c8c8;
+    bottom: 20px;
+}
+
+.abubooks a {
+    position: absolute;
+    float: left;
+    left: 80px;
+    top: 170px;
+    color: #5c24e2;
+    font-size: 1.5em;
+}
+
+.abubooks a:hover {
+    color: #a860e8;
+}
+
+.footer {
+    font-family: sans-serif;
+    padding: 60px 0 0 0px;
+    width: 1366px;
+    height: 400px;
+    position: relative;
+    margin-top: 180px;
+    background-color: #f5f7f2
+}
+
+.footerabout ul li a,
+.footersupport ul li a,
+.footerlegal ul li a {
+    text-decoration: none;
+    color: black;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.footerabout ul li a:hover,
+.footersupport ul li a:hover,
+.footerlegal ul li a:hover {
+    color: #a860e8;
+}
+
+.footerabout {
+    margin-left: 80px;
+    float: left;
+}
+
+.footerabout h3 {
+    font-size: 2.2em;
+    margin-bottom: 25px
+}
+
+.footerabout ul li {
+
+    line-height: 1.4em;
+    font-size: 1.45em;
+    list-style: none;
+}
+
+.footersupport {
+    float: left;
+    margin-left: 80px;
+}
+
+.footersupport h3 {
+    font-size: 2.2em;
+    margin-bottom: 25px
+}
+
+.footersupport ul li {
+    font-size: 1.45em;
+    list-style: none;
+    line-height: 1.4em;
+}
+
+.footerlegal {
+    float: left;
+    margin-left: 80px;
+}
+
+.footerlegal h3 {
+    font-size: 2.2em;
+    margin-bottom: 25px
+}
+
+.footerlegal ul li {
+    font-size: 1.45em;
+    list-style: none;
+    line-height: 1.4em;
+
+}
+
+.footersocial {
+    width: 280px;
+    height: 200px;
+    ;
+    float: left;
+    margin-left: 80px;
+    /* background-color: #FFF; */
+}
+
+.fa-brands {
+    color: black;
+}
+
+.fb i {
+    color: #fff;
+    background-color: #3b5999;
+}
+
+.fb i:hover {
+    color: #3b5999;
+    background-color: #fff;
+}
+
+.insta i {
+    color: #fff;
+    background-color: #e1306c;
+}
+
+.insta i:hover {
+    color: #e1306c;
+    background-color: #fff;
+}
+
+.twitter i {
+    color: #fff;
+    background-color: #46c1f6;
+}
+
+.twitter i:hover {
+    color: #46c1f6;
+    background-color: #fff;
+}
+
+.maill i {
+    color: #fff;
+    background-color: #f81d00;
+}
+
+.maill i:hover {
+    color: #f81d00;
+    background-color: #fff;
+}
+
+.socialiconbg a i {
+    border-radius: 50%;
+    text-align: center;
+    line-height: 30px;
+    margin-right: 10px;
+    width: 30px;
+    height: 30px;
+    /* text-align: ; */
+    font-size: 15px;
+    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1);
+}
+
+.footersocial h3 {
+    font-size: 2.2em;
+    margin-bottom: 15px
+}
+
+/* .footersocial ul li{
+    text-align: center;
+    list-style: none;
+} */
+.footergetapp h3 {
+    /* float: right; */
+    font-size: 2.2em;
+
+    margin-bottom: 25px
+}
+
+.footergetapp {
+    float: right;
+    margin-right: 100px;
+}
+
+.playstore img {
+    width: 200px;
+    height: 60px;
+    /* transition:1s; */
+
+}
+
+.playstore img:hover {
+    transform: scale(1.1);
+}
+
+.appleapp img {
+    width: 200px;
+    height: 60px;
+    /* transition:1s; */
+}
+
+.appleapp img:hover {
+    transform: scale(1.1);
+}
+
+.footer hr {
+    margin-top: 50px;
+    float: left;
+    width: 1200px;
+    margin-left: 80px;
+}
+
+.footerbooks {
+    clear: both;
+    margin-left: 80px;
+}
+
+.footerbooks ul li {
+    font-size: 1.45em;
+    display: inline-block;
+    padding: 40px 40px 0 0px;
+    list-style: square;
+}
+
+.footerbooks ul li a {
+    text-decoration: none;
+    color: black;
+}
+
+.footerbooks ul li a:nth-child(1):hover {
+    /* background-color: #5c24e2; */
+    color: #a860e8;
+}
+
+.copyright {
+    padding: 30px 0 0 80px;
+    font-size: 1.45em;
+}
+
+.copyright p a {
+    text-decoration: none;
+    color: #bfa3fc;
+}
+
+.copyright p a:hover {
+    color: #a860e8;
+}
+   </style>
+</head>
+<body>
+    <!-- <div class="header"> -->
+       
+        <div class="header_banner">
+         <div class="banner"> 
+             <img class="banner" src="img/header_banner.png" alt="banner">
+            <div class="logo">
+                <img src="img/Logo.png" alt="logo">
+            </div>
+            <div class="search">
+                 <form >
+                    <input type="text" placeholder="search e books">
+                    <button type="submit" >
+                        <img src="img/search.png" alt="search"> 
+                    </button>
+                </form>
+            </div>
+                <div class="profile">
+                    <form action="">
+                    <button type="submit">
+                        <img src="img/profile.png"  alt="profine" >
+                    </button>
+                </form>
+                </div>
+                <div class="heart">
+                    <form action="">
+                    <button >
+                        <img src="img/heart.png" alt="">
+                    </button>
+                </form>
+                </div>
+                <div class="subbtna">
+                    <form action="">
+                        <button>
+                            <p>Read free for 10 days</p>
+                        </button>
+                    </form>
+                </div>
+                <div class="nav">
+                    <img src="img/MOBILE APP LANGING PAGE PNG.png" alt="">
+                    <ul>
+                        <li><a href="#"> HOME</a></li>
+                        <li><a href="#">ABOUT US</a></li>
+                        <li><a href="#todaydrendind">EBOOKS</a></li>
+                        <li><a href="#">MAGAZINES</a></li>
+                        <li><a href="#">AUDIOBOOKS</li>
+                        <li><a href="#">NEWS</a></li>
+                        <li><i class="bi bi-facebook"></i></li>
+                    </ul>
+                </div>
+                <div class="subtext">
+                    <h3>
+                        Enjoy popular books when you <br> subscribe
+                    </h3>
+                    <p>Get instant access to millions of books,<br>
+                    magazines,audiobooks, news and more <br>
+                    for only Rs:150/month.
+                </p>
+                </div>
+                <div class="subbtnb">
+                    <form >
+                    <button>
+                        <p>
+                            Read free for 10 days
+                        </p>
+                    </button>
+                </form>
+                </div>
+                <div class="imgbanner">
+                    <div class="bannerimga">
+                        <img src="img/banner-1.png" alt="">
+                    </div>
+                    <div class="bannerimgb">
+                        <img src="img/banner-2.png" alt="">
+                    </div>
+                    <div class="bannerimgc">
+                        <img src="img/banner-3.png" alt="">
+                    </div>
+                </div>
+            </div> 
+        </div>
+    <!-- </div> -->
+<div class="browsegenres">
+    <div class="bgsheading">
+    <h1>
+        BROWSE GENRES
+    </h1>
+</div>
+    <div class="bgsimg">
+        <div class="bgsboxmaina ">
+      <div class="bgsboxa">
+        <img src="img/fantansy.jpg" alt="">
+        <p>fantansy</p>
+      </div>
+        <div class="bgsboxb">
+            <img src="img/science fiction.jpg" alt="">
+            <p>Scince Ficition</p>
+        </div>
+                <div class="bgsboxc">
+                    <img src="img/horror.jpg" alt="">
+                <p>Horrer</p>
+                </div>
+            </div>  
+        <!-- main box b -->
+            <div class="bgsboxmainb">
+                <div class="bgsboxd">
+                  <img src="img/romance.jpg" alt="">
+                  <p>rommance</p>
+                </div>
+                  <div class="bgsboxe">
+                      <img src="img/thriller.jpg" alt="">
+                      <p>thriller</p>
+                  </div>
+                          <div class="bgsboxf">
+                              <img src="img/history.jpg" alt="">
+                          <p>histroy</p>
+                          </div>
+                      </div>
+
+                      <div class="bgsboxmainc">
+                        <div class="bgsboxg">
+                          <img src="img/bussiness.jpg" alt="">
+                          <p>Business</p>
+                        </div>
+                          <div class="bgsboxh">
+                              <img src="img/war.jpg" alt="">
+                              <p>War</p>
+                          </div>
+                                  <div class="bgsboxi">
+                                      <img src="img/naturle.jpg" alt="">
+                                  <p>Nature</p>
+                                  </div>
+                              </div>
+                      <!-- main boxc -->
+     
+                    <div class="vma">
+                        <p> <a href="#"> View more</a></p>
+                    </div>
+                      
+   </div>
+
+
+<div class="flexboxa">
+    <div class="booksa">
+     <h1>Today trending books</h1>
+    
+     <div class="bga">
+         
+    </div>
+   
+ 
+    
+        <div class="row_aandb">
+           <!-- BOX A -->   <div class="arowa">
+        <div class="lefta">
+            <a href="#">   
+                <img src="img/left-arrow.png" alt="">
+            </a> 
+            </div>
+            <div class="righta">
+            <a href="#">
+                <img src="img/right-arrow.png" alt="">
+            </a>    
+            </div>
+        </div>
+            <div class="boxa">
+                <a href="#"> 
+                    <div class="boxabg"> 
+                <img src="img/today trenting/the devile devils.jpg" alt="image"></div></a>
+                <div class="boxapara"> <p>E-books</p></div>
+                <div class="boxatitle"><h6>The devine Devils</h6></div>
+                <div class="boxaauther"><p>R weir</p></div>
+         <div class="stara">       <div class="boxagsa"><img src="img/goldenstar.png" alt="goldstar"></div>
+                <div class="boxagsb"><img src="img/goldenstar.png" alt="goldstar"></div>
+                <div class="boxagsc"><img src="img/goldenstar.png" alt="goldstar"></div>
+                <div class="boxagsd"><img src="img/goldenstar.png" alt="goldstar"></div>
+                <div class="boxastar"><img src="img/star.png" alt="star"></div>
+            </div>
+                <div class="boxarate"><p>4/5</p></div>
+                <div class="boxaheart"> <a href="#"><i class="fa-solid fa-heart"></i></div></a>
+        </div>
+        <!-- BOX B -->
+             
+        <div class="boxb">
+            <a href="#">
+                <div class="boxbbg">
+                    <img src="img/today trenting/fire&water.jpeg"image">
+                </div></a>
+            <div class="boxbpara"> <p>E-books</p></div>
+            <div class="boxbtitle"><h6>fire&water</h6></div>
+            <div class="boxbauther"><p>Bobbi schemerhorn</p></div>
+   <div class="starb">         <div class="boxbgsa"><img src="img/goldenstar.png" alt="goldstar"></div>
+            <div class="boxbgsb"><img src="img/goldenstar.png" alt="goldstar"></div>
+            <div class="boxbgsc"><img src="img/goldenstar.png" alt="goldstar"></div>
+            <div class="boxbgsd"><img src="img/goldenstar.png" alt="goldstar"></div>
+            <div class="boxbstar"><img src="img/star.png" alt="star"></div></div>
+            <div class="boxbrate"><p>4/5</p></div>
+            <div class="boxbheart"> <a href="#"><img src="img/heart png.png" alt=""></div></a>
+    </div>
+
+        <!-- box c -->
+        <div class="boxc">
+            <a href="#">
+                <div class="boxcbg">
+                    <img src="img/today trenting/the relucant coroner.jpg" alt="image">
+                </div></a>
+            <div class="boxcpara"> <p>E-books</p></div>
+            <div class="boxctitle"><h6>The relucant coroner</h6></div>
+            <div class="boxcauther"><p>Paul Austin Ardoin</p></div>
+     <div class="starc">       <div class="boxcgsa"><img src="img/goldenstar.png" alt="goldstar"></div>
+            <div class="boxcgsb"><img src="img/goldenstar.png" alt="goldstar"></div>
+            <div class="boxcgsc"><img src="img/goldenstar.png" alt="goldstar"></div>
+            <div class="boxcgsd"><img src="img/goldenstar.png" alt="goldstar"></div>
+            <div class="boxcstar"><img src="img/star.png" alt="star"></div>
+        </div>
+            <div class="boxcrate"><p>4/5</p></div>
+            <div class="boxcheart"> <a href="#"><img src="img/heart png.png" alt=""></div></a>
+    </div>
+
+
+
+            <!-- BOX D -->
+            <div class="boxd">
+                <a href="#">
+                    <div class="boxdbg">
+                        <img src="img/today trenting/tell me why.jpeg "alt="image">
+                    </div></a>
+                <div class="boxdpara"> <p>E-books</p></div>
+                <div class="boxdtitle"><h6>Tell Me Why</h6></div>
+                <div class="boxdauther"><p>Sandiwalace</p></div>
+        <div class="stard">        <div class="boxdgsa"><img src="img/goldenstar.png" alt="goldstar"></div>
+                <div class="boxdgsb"><img src="img/goldenstar.png" alt="goldstar"></div>
+                <div class="boxdgsc"><img src="img/goldenstar.png" alt="goldstar"></div>
+                <div class="boxdgsd"><img src="img/goldenstar.png" alt="goldstar"></div>
+                <div class="boxdstar"><img src="img/star.png" alt="star"></div></div>
+                <div class="boxdrate"><p>4/5</p></div>
+                <div class="boxdheart"> <a href="#"><img src="img/heart png.png" alt=""></div></a>
+        </div>
+    
+            <!-- BOX E -->
+            <div class="boxe">
+                <a href="#">
+                    <div class="boxebg">
+                        <img src="img/today trenting//a messy killing.jpeg "alt="image">
+                    </div></a>
+                <div class="boxepara"> <p>E-books</p></div>
+                <div class="boxetitle"><h6>A messy killing</h6></div>
+                <div class="boxeauther"><p>Brian L.porter</p></div>
+    <div class="stare">          <div class="boxegsa"><img src="img/goldenstar.png" alt="goldstar"></div>
+                <div class="boxegsb"><img src="img/goldenstar.png" alt="goldstar"></div>
+                <div class="boxegsc"><img src="img/goldenstar.png" alt="goldstar"></div>
+                <div class="boxegsd"><img src="img/goldenstar.png" alt="goldstar"></div>
+                <div class="boxestar"><img src="img/star.png" alt="star"></div>
+            </div>  
+                <div class="boxerate"><p>4/5</p></div>
+                <div class="boxeheart"> <a href="#"><img src="img/heart png.png" alt=""></div></a>
+            </div>     
+        </div>    
+    </div>
+
+   <div class="btnboxa"><button type="button">view more</button></div>
+
+    <!-- ROW-2 -->
+    <div class="booksb">
+        <!-- <h1>Today trending books</h1> -->
+        
+           <div class="row_b">
+            <h1>Most Reading Books</h1>
+            <div class="arowb">
+                <div class="leftb">
+                <a href="#">   <img src="img/left-arrow.png" alt=""></a> 
+                </div>
+            <a href="#"><div class="rightb">
+                    <img src="img/right-arrow.png" alt=""></a>    
+                </div>
+              <!-- BOX F -->
+               <div class="boxf">
+                   <a href="#"> 
+                       <div class="boxfbg"> 
+                   <img src="img/most reding books/chicken clulpirt.jpeg" alt="image"></div></a>
+                   <div class="boxfpara"> <p>E-books</p></div>
+                   <div class="boxftitle"><h6>Chicken Culprit</h6></div>
+                   <div class="boxfauther"><p>Vikki Waltone</p></div>
+       <div class="starf" >          <div class="boxfgsa"><img src="img/goldenstar.png" alt="goldstar"></div>
+                   <div class="boxfgsb"><img src="img/goldenstar.png" alt="goldstar"></div>
+                   <div class="boxfgsc"><img src="img/goldenstar.png" alt="goldstar"></div>
+                   <div class="boxfgsd"><img src="img/goldenstar.png" alt="goldstar"></div>
+                   <div class="boxfstar"><img src="img/star.png" alt="star"></div>
+                   </div> 
+                   <div class="boxfrate"><p>4/5</p></div>
+                   <div class="boxfheart"> <a href="#"><img src="img/heart png.png" alt=""></div></a>
+           </div>
+           <!-- BOX G-->
+                
+           <div class="boxg">
+               <a href="#">
+                   <div class="boxgbg">
+                       <img src="img/most reding books/High planis holiday.jpeg" alt="image">
+                   </div></a>
+               <div class="boxgpara"> <p>E-books</p></div>
+               <div class="boxgtitle"><h6>high Planis Holiday</h6></div>
+               <div class="boxgauther"><p>Simone Beaudlaire</p></div>
+     <div class="starg">          <div class="boxggsa"><img src="img/goldenstar.png" alt="goldstar"></div>
+               <div class="boxggsb"><img src="img/goldenstar.png" alt="goldstar"></div>
+               <div class="boxggsc"><img src="img/goldenstar.png" alt="goldstar"></div>
+               <div class="boxggsd"><img src="img/goldenstar.png" alt="goldstar"></div>
+               <div class="boxgstar"><img src="img/star.png" alt="star"></div>
+            </div>
+               <div class="boxgrate"><p>4/5</p></div>
+               <div class="boxgheart"> <a href="#"><img src="img/heart png.png" alt=""></div></a>
+       </div>
+   
+           <!-- box h -->
+           <div class="boxh">
+               <a href="#">
+                   <div class="boxhbg">
+                       <img src="img/most reding books/murder on tyeside.jpeg" alt="image">
+                   </div></a>
+               <div class="boxhpara"> <p>E-books</p></div>
+               <div class="boxhtitle"><h6>Murder On tyeside</h6></div>
+               <div class="boxhauther"><p>Elieen Thomton</p></div>
+  <div class="starh">           <div class="boxhgsa"><img src="img/goldenstar.png" alt="goldstar"></div>
+               <div class="boxhgsb"><img src="img/goldenstar.png" alt="goldstar"></div>
+               <div class="boxhgsc"><img src="img/goldenstar.png" alt="goldstar"></div>
+               <div class="boxhgsd"><img src="img/goldenstar.png" alt="goldstar"></div>
+               <div class="boxhstar"><img src="img/star.png" alt="star"></div>
+            </div>  
+               <div class="boxhrate"><p>4/5</p></div>
+               <div class="boxhheart"> <a href="#"><img src="img/heart png.png" alt=""></div></a>
+       </div>
+   
+   
+   
+               <!-- BOX i -->
+               <div class="boxi">
+                   <a href="#">
+                       <div class="boxibg">
+                           <img src="img/most reding books/wizaed's rise.jpeg" alt="image">
+                       </div></a>
+                   <div class="boxipara"> <p>E-books</p></div>
+                   <div class="boxdtitle"><h6>Wizard's Rise</h6></div>
+                   <div class="boxiauther"><p>philltip tomasso</p></div>
+        <div class="stari">          <div class="boxigsa"><img src="img/goldenstar.png" alt="goldstar"></div>
+                   <div class="boxigsb"><img src="img/goldenstar.png" alt="goldstar"></div>
+                   <div class="boxigsc"><img src="img/goldenstar.png" alt="goldstar"></div>
+                   <div class="boxigsd"><img src="img/goldenstar.png" alt="goldstar"></div>
+                   <div class="boxistar"><img src="img/star.png" alt="star"></div>
+                </div> 
+                   <div class="boxirate"><p>4/5</p></div>
+                   <div class="boxiheart"> <a href="#"><img src="img/heart png.png" alt=""></div></a>
+           </div>
+       
+               <!-- BOX j-->
+               <div class="boxj">
+                   <a href="#">
+                       <div class="boxjbg">
+                           <img src="img/most reding books/bronze magic.jpeg" alt="image">
+                       </div></a>
+                   <div class="boxjpara"> <p>E-books</p></div>
+                   <div class="boxjtitle"><h6>Bronze Magic</h6></div>
+                   <div class="boxjauther"><p>Jennifer Ealey</p></div>
+     <div class="starj">            <div class="boxjgsa"><img src="img/goldenstar.png" alt="goldstar"></div>
+                   <div class="boxjgsb"><img src="img/goldenstar.png" alt="goldstar"></div>
+                   <div class="boxjgsc"><img src="img/goldenstar.png" alt="goldstar"></div>
+                   <div class="boxjgsd"><img src="img/goldenstar.png" alt="goldstar"></div>
+                   <div class="boxjstar"><img src="img/star.png" alt="star"></div>
+                </div>  
+                   <div class="boxjrate"><p>4/5</p></div>
+                   <div class="boxjheart"> <a href="#"><img src="img/heart png.png" alt=""></div></a>
+               </div>     
+           </div>    
+           <div class="btnboxb"><button type="button">view more</button></div>
+       </div>
+     
+</div>
+<div class="audiobanner">
+    <img src="img/audiobanner_1.png" alt="">
+    
+</div>
+           <!-- ROW-3 -->
+    <div class="booksc">
+        <!-- <h1>classic</h1> -->
+        
+           <div class="row_c">
+            <h1>Magazines</h1>
+            <div class="arowc">
+                <div class="leftc">
+                <a href="#">   <img src="img/left-arrow.png" alt=""></a> 
+                </div>
+           <a href="#">   <div class="rightc">
+                    <img src="img/right-arrow.png" alt="">
+                </div> </a>     
+              <!-- BOX j -->
+               <div class="boxk">
+                   <a href="#"> 
+                       <div class="boxkbg"> 
+                   <img src="img/classic books/the creation of good.jpg" alt="image"></div></a>
+                   <div class="boxkpara"> <p>E-books</p></div>
+                   <div class="boxktitle"><h6>The Creation of God</h6></div>
+                   <div class="boxkauther"><p>Jacob Hartmann</p></div>
+       <div class="starf" >          <div class="boxkgsa"><img src="img/goldenstar.png" alt="goldstar"></div>
+                   <div class="boxkgsb"><img src="img/goldenstar.png" alt="goldstar"></div>
+                   <div class="boxkgsc"><img src="img/goldenstar.png" alt="goldstar"></div>
+                   <div class="boxkgsd"><img src="img/goldenstar.png" alt="goldstar"></div>
+                   <div class="boxkstar"><img src="img/star.png" alt="star"></div>
+                   </div> 
+                   <div class="boxkrate"><p>4/5</p></div>
+                   <div class="boxkheart"> <a href="#"><img src="img/heart png.png" alt=""></div></a>
+           </div>
+           <!-- BOX G-->
+                
+           <div class="boxl">
+               <a href="#">
+                   <div class="boxlbg">
+                       <img src="img/classic books/fire&water.jpg" alt="image">
+                   </div></a>
+               <div class="boxlpara"> <p>5555ooks</p></div>
+               <div class="boxltitle"><h6>Fire&Water</h6></div>
+               <div class="boxlauther"><p>Bobbi Schemerhom</p></div>
+     <div class="starg">          <div class="boxlgsa"><img src="img/goldenstar.png" alt="goldstar"></div>
+               <div class="boxlgsb"><img src="img/goldenstar.png" alt="goldstar"></div>
+               <div class="boxlgsc"><img src="img/goldenstar.png" alt="goldstar"></div>
+               <div class="boxlgsd"><img src="img/goldenstar.png" alt="goldstar"></div>
+               <div class="boxlstar"><img src="img/star.png" alt="star"></div>
+            </div>
+               <div class="boxlrate"><p>4/5</p></div>
+               <div class="boxlheart"> <a href="#"><img src="img/heart png.png" alt=""></div></a>
+       </div>
+   
+           <!-- box h -->
+           <div class="boxm">
+               <a href="#">
+                   <div class="boxmbg">
+                       <img src="img/classic books/20 poemas.jpg" alt="image">
+                   </div></a>
+               <div class="boxmpara"> <p>E-books</p></div>
+               <div class="boxmtitle"><h6>20 poemas</h6></div>
+               <div class="boxmauther"><p>Oliverio girondo</p></div>
+  <div class="starh">           <div class="boxmgsa"><img src="img/goldenstar.png" alt="goldstar"></div>
+               <div class="boxmgsb"><img src="img/goldenstar.png" alt="goldstar"></div>
+               <div class="boxmgsc"><img src="img/goldenstar.png" alt="goldstar"></div>
+               <div class="boxmgsd"><img src="img/goldenstar.png" alt="goldstar"></div>
+               <div class="boxmstar"><img src="img/star.png" alt="star"></div>
+            </div>  
+               <div class="boxmrate"><p>4/5</p></div>
+               <div class="boxmheart"> <a href="#"><img src="img/heart png.png" alt=""></div></a>
+       </div>
+   
+   
+   
+               <!-- BOX i -->
+               <div class="boxn">
+                   <a href="#">
+                       <div class="boxnbg">
+                           <img src="img/classic books/tell me why.jpg" alt="image">
+                       </div></a>
+                   <div class="boxnpara"> <p>E-books</p></div>
+                   <div class="boxntitle"><h6>Tell me Why</h6></div>
+                   <div class="boxnauther"><p>Sandiwalace</p></div>
+        <div class="stari">          <div class="boxngsa"><img src="img/goldenstar.png" alt="goldstar"></div>
+                   <div class="boxngsb"><img src="img/goldenstar.png" alt="goldstar"></div>
+                   <div class="boxngsc"><img src="img/goldenstar.png" alt="goldstar"></div>
+                   <div class="boxngsd"><img src="img/goldenstar.png" alt="goldstar"></div>
+                   <div class="boxnstar"><img src="img/star.png" alt="star"></div>
+                </div> 
+                   <div class="boxnrate"><p>4/5</p></div>
+                   <div class="boxnheart"> <a href="#"><img src="img/heart png.png" alt=""></div></a>
+           </div>
+       
+               <!-- BOX j-->
+               <div class="boxo">
+                   <a href="#">
+                       <div class="boxobg">
+                           <img src="img/classic books/the love story.jpg" alt="image">
+                       </div></a>
+                   <div class="boxopara"> <p>E-books</p></div>
+                   <div class="boxotitle"><h6>The love-story of...</h6></div>
+                   <div class="boxoauther"><p>Gilbert frankau</p></div>
+     <div class="starj">            <div class="boxogsa"><img src="img/goldenstar.png" alt="goldstar"></div>
+                   <div class="boxogsb"><img src="img/goldenstar.png" alt="goldstar"></div>
+                   <div class="boxogsc"><img src="img/goldenstar.png" alt="goldstar"></div>
+                   <div class="boxogsd"><img src="img/goldenstar.png" alt="goldstar"></div>
+                   <div class="boxostar"><img src="img/star.png" alt="star"></div>
+                </div>  
+                   <div class="boxorate"><p>4/5</p></div>
+                   <div class="boxoheart"> <a href="#"><img src="img/heart png.png" alt=""></div></a>
+               </div>     
+             
+           <div class="btnboxc"><button type="button">view more</button></div>
+       </div>
+    </div> 
+</div>
+  
+
+ <!--                  Moblie app banner                          -->
+
+ <div class="mobliebanner">
+    <div class="mobilescrren"><img src="img/app ban111.png" alt="">
+    </div>
+    <div class="mobiles"><img src="img/mobile bann.png" alt=""></div>
+ <div class="bannericons">  
+    <div class="play"> <a href="#"><img src="img/playstore.png" alt=""></a> </div>
+  <div class="apple">  <a href="#"><img src="img/appstore.png" alt=""></a> </div>
+ </div> 
+</div>
+ <div class="abubooks">
+    <h1>About books</h1><br><br><br>
+    <p>Our extensive selection of bestselling ebooks truly has something for everyone. bestselling <br>
+        self-improvement title- form the like of mark manson, rechel hollis, stephen R.covey, <br>
+        and more- offer a deeper realtionship with the self, whereas our curated selection of <br>
+    <span>   contemporary fiction helps you connect eith compelling stories beyond your immediate</span>
+    </p>
+    <a href="#">Read more</a>
+ </div>
+ <div class="footer">
+   <div class="footerabout">
+     <h3>About</h3>
+     <ul>
+        <li> <a href="#"> About atoz</a></li>
+        <li><a href="#">Press</a></li>
+        <li><a href="#">Contact us</a></li>
+        <li><a href="#">Our blog</a></li>
+     </ul>
+   </div>
+   <div class="footersupport">
+    <h3>Support</h3>
+    <ul>
+        <li><a href="#">Help/FAQ</a></li>
+        <li><a href="#">Accessibility</a></li>
+        <li><a href="#">Purchase help</a></li>
+    </ul>
+   </div>
+   <div class="footerlegal">
+    <h3>Legal</h3>
+    <ul>
+        <li><a href="#">Terms</a></li>
+        <li><a href="#">Privacy</a></li>
+        <li><a href="#">Copyright</a></li>
+        <li><a href="#">Cookie Preferences</a></li>
+    </ul>
+   </div>
+   <div class="footersocial">
+    <h3>Social</h3>
+         <ul class="socialiconbg">
+             <a href="#" class="fb"><i class="fa-brands fa-facebook-f"></i></a>
+             <a href="#" class="insta"><i class="fa-brands fa-instagram"></i></a>
+             <a href="#" class="twitter"><i class=" tw fa-brands fa-twitter"></i></a> 
+             <a href="#" class="maill"><i class="fa-solid fa-envelope"></i></a>
+         </ul>
+
+   </div>
+   <div class="footergetapp">
+    <h3>Get app</h3>
+    <div class="playstore"><a href="#"><img src="img/playstore.png" alt=""></a></div>
+    <div class="appleapp"><a href="#"><img src="img/appstore.png" alt=""></a></div>
+   </div>
+   
+   <hr>
+   <div class="footerbooks">
+    <ul>
+        <li> <a href="#"> ebooks</a></li>
+        <li><a href="#">Audiobooks</a></li>
+        <li><a href="#">Magazines</a></li>
+        <li><a href="#">News</a></li>
+    </ul>
+   </div>
+   <div class="copyright">
+    <p><a href="">copyrights2022 atozebooks</a></p>
+   </div>
+ </div>
+</body>
+</html>
